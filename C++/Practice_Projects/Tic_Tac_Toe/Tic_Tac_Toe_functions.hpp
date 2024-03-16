@@ -1,0 +1,10 @@
+void print_borad(char board[3][3]);
+char choose_symbol(char* current_player_ptr, char* next_player_ptr);
+void greet();
+bool check_Horizontal(char board[3][3]);
+bool check_Vertical(char board[3][3]);
+bool check_diagonal(char board[3][3]);
+bool check_board(char board[3][3]);
+int get_player_input(char board[3][3]);
+void place_character_onboard(int input, int* input_count, char current_player, char board[3][3]);
+void delay(int num);
